@@ -12,3 +12,7 @@ export default class Title extends React.Component{
 	}
 }
 
+export function TitleSub(){
+	return "sub title";
+}
+

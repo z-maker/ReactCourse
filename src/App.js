@@ -4,6 +4,7 @@ import './App.css';
 
 import Title from './components/Title'
 import Iron from './components/iron/Iron'
+import {TitleSub} from './components/Title'
 
 class App extends Component {
 
@@ -15,6 +16,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
          <Title/>
+         {TitleSub()}
         </header>
         <Iron/>
       </div>

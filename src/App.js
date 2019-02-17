@@ -3,7 +3,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
 import {Card,CardText} from 'material-ui/Card';
 
-import {blue400,orangeA400,lightBlueA400,amberA400} from 'material-ui/styles/colors';
+import {red700,blue500,indigo500,amberA400} from 'material-ui/styles/colors';
 
 import Title from './components/Title'
 
@@ -38,12 +38,12 @@ updateNumero(){
         </div>
       </div>
       </div>
-      <div style={{'background-color':blue400,'padding':'50px'}}>
+      <div style={{'background-color':blue500,'padding':'50px'}}>
         <ul>
         <Card className="Header-Benefit">
           <CardText >
             <div className="row">
-              <div className="Header-Benefit-Image" style={{'backgroundColor':orangeA400}}>
+              <div className="Header-Benefit-Image" style={{'backgroundColor':red700}}>
                 <img src={process.env.PUBLIC_URL + 'images/heart.png'} />
               </div>
               <div className="Header-Benefit-Content">
@@ -56,7 +56,7 @@ updateNumero(){
         <Card className="Header-Benefit">
           <CardText >
             <div className="row">
-              <div className="Header-Benefit-Image" style={{'backgroundColor':orangeA400}}>
+              <div className="Header-Benefit-Image" style={{'backgroundColor':indigo500}}>
                 <img src={process.env.PUBLIC_URL + 'images/heart.png'} />
               </div>
               <div className="Header-Benefit-Content">
@@ -69,7 +69,7 @@ updateNumero(){
         <Card className="Header-Benefit">
           <CardText >
             <div className="row">
-              <div className="Header-Benefit-Image" style={{'backgroundColor':orangeA400}}>
+              <div className="Header-Benefit-Image" style={{'backgroundColor':amberA400}}>
                 <img src={process.env.PUBLIC_URL + 'images/no-internet.png'} />
               </div>
               <div className="Header-Benefit-Content">

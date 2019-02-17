@@ -11,11 +11,12 @@
   display: inline-block;
   margin-right: 1%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .Header-Benefit-Content{
-  flex-basis: 65%;
-  max-width: 65%;
+  flex-basis: 60%;
+  max-width: 60%;
   padding-top: 10px!important;
   padding-left  : 10px!important;
   padding-right : 10px!important;
@@ -27,6 +28,7 @@
 }
 
 .Header-Benefit-Image{
+  height: 120px;
   display: flex;
   justify-content: center;
   flex-basis: 30%;

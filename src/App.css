@@ -6,6 +6,41 @@
   text-align: center;
   align-items: center;
 }
+.Header-Benefit{
+  width: 32%;
+  display: inline-block;
+  margin-right: 1%;
+  box-sizing: border-box;
+}
+
+.Header-Benefit-Content{
+  flex-basis: 65%;
+  max-width: 65%;
+  padding-top: 10px!important;
+  padding-left  : 10px!important;
+  padding-right : 10px!important;
+  padding-bottom: 10px!important;
+}
+
+.Header-Benefit div:not(.Header-Benefit-Content){
+  padding:0px!important;
+}
+
+.Header-Benefit-Image{
+  display: flex;
+  justify-content: center;
+  flex-basis: 30%;
+  max-width: 30%;
+  -webkit-box-flex:0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: .5rem;
+  padding-right:.5rem;
+}
+
+.Header-Benefit-Image img{
+  max-width: 100%;
+}
 
 .Header-ilustration{
   position: absolute;

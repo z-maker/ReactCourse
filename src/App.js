@@ -41,24 +41,42 @@ updateNumero(){
       <div style={{'background-color':blue400,'padding':'50px'}}>
         <ul>
         <Card className="Header-Benefit">
-          <CardText style={{'backgroundColor':orangeA400}}>
-            <img src={process.env.PUBLIC_URL + 'images/heart.png'} />
-            <h3>Calificanos con emociones</h3>
-            <p>Califica tus lugares con experiencias,no con numeros</p>
+          <CardText >
+            <div className="row">
+              <div className="Header-Benefit-Image" style={{'backgroundColor':orangeA400}}>
+                <img src={process.env.PUBLIC_URL + 'images/heart.png'} />
+              </div>
+              <div className="Header-Benefit-Content">
+                <h3>Calificanos con emociones</h3>
+                <p>Califica tus lugares con experiencias,no con numeros</p>
+              </div>
+            </div>
           </CardText>
         </Card>
         <Card className="Header-Benefit">
-          <CardText style={{'backgroundColor':orangeA400}}>
-            <img src={process.env.PUBLIC_URL + 'images/no-internet.png'} />
-            <h3>Sin Internet?</h3>
-            <p>Places funciona sin Internet</p>
+          <CardText >
+            <div className="row">
+              <div className="Header-Benefit-Image" style={{'backgroundColor':orangeA400}}>
+                <img src={process.env.PUBLIC_URL + 'images/heart.png'} />
+              </div>
+              <div className="Header-Benefit-Content">
+                <h3>Tus lugares favoritos</h3>
+                <p>Guarda tus lugares favoritos</p>
+              </div>
+            </div>
           </CardText>
         </Card>
         <Card className="Header-Benefit">
-          <CardText style={{'backgroundColor':orangeA400}}>
-            <img src={process.env.PUBLIC_URL + 'images/heart.png'} />
-            <h3>Tus lugares favoritos</h3>
-            <p>Guarda tus lugares favoritos</p>
+          <CardText >
+            <div className="row">
+              <div className="Header-Benefit-Image" style={{'backgroundColor':orangeA400}}>
+                <img src={process.env.PUBLIC_URL + 'images/no-internet.png'} />
+              </div>
+              <div className="Header-Benefit-Content">
+                <h3>Sin Internet?</h3>
+                <p>Places funciona sin Internet</p>
+              </div>
+            </div>
           </CardText>
         </Card>
         </ul>

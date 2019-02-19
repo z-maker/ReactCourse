@@ -41,27 +41,30 @@
 }
 
 .Header-Benefit-Image img{
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .Header-ilustration{
   position: absolute;
   z-index: 0;
-  top: 16px;
+  top: 26px;
   margin-left: 300px;
   height: 300px;
 }
-
 .Header-main{
   margin-bottom: -2em;
   margin-left: -400px;
 }
-
-
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 10s linear;
   height: 40vmin;
   pointer-events: none;
+  border-radius: 50%;
+
+  box-shadow: 3px 3px 55px black;
+}
+.Header-Benefit:hover{
+  transform: translateY(-10px);
 }
 
 .App-header {

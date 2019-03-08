@@ -11,11 +11,11 @@ export default class Benefit extends React.Component{
 				    <CardText >
 				      <div className="row">
 				        <div className="Header-Benefit-Image" style={{'backgroundColor':indigo500}}>
-				          <img src={process.env.PUBLIC_URL + 'images/heart.png'} />
+				          <img src={process.env.PUBLIC_URL + 'images/top-bg.png'} />
 				        </div>
 				        <div className="Header-Benefit-Content">
-				          <h3>Calificanos con emociones</h3>
-				          <p>Califica tus lugares con experiencias,no con numeros</p>
+				          <h3>Calificanos </h3>
+				          <p>Califica tus lugares con experiencias </p>
 				        </div>
 				      </div>
 				    </CardText>

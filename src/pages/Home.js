@@ -61,7 +61,7 @@ export default class Home extends React.Component{
 				<Benefits/>
 				</div>
 				<div style={{'backgroundColor':indigo500,'padding':'50px','color':'white'}}>
-				  <h3 style={{'fontSize':'3em'}}>Lo más destacado...</h3>
+				  <h3 style={{'fontSize':'2em'}}>Lo más destacado...</h3>
 				  <div className="row">
 				    {this.places()}
 				  </div>

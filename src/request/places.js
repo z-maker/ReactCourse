@@ -8,12 +8,12 @@ export default{
 	{
 		imageUrl:'/images/places-2.jpg',
 		title:'Bikini Bottom',
-		description:'Esponja de espera...'
+		description:'We will have FUN!!'
 	},
 	{
 		imageUrl:'/images/places-3.jpg',
 		title:'Springfield',
-		description:'Hay caramba!!...'
-	}
+		description:'Donuts...!!!!'
+	},
 	]
 }

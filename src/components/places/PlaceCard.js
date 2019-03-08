@@ -7,6 +7,7 @@ import FlatButton from 'material-ui/FlatButton';
 
 import {indigo500,blue500,orangeA700,amberA400} from 'material-ui/styles/colors';
 
+import './style.css';
 
 
 

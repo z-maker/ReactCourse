@@ -11,7 +11,7 @@ export default class Benefit extends React.Component{
 				    <CardText >
 				      <div className="row">
 				        <div className="Header-Benefit-Image" style={{'backgroundColor':indigo500}}>
-				          <img src={process.env.PUBLIC_URL + 'images/top-bg.png'} />
+				          <img src={process.env.PUBLIC_URL + 'images/top-bg.png'} alt="imagek" />
 				        </div>
 				        <div className="Header-Benefit-Content">
 				          <h3>Calificanos </h3>
@@ -24,7 +24,7 @@ export default class Benefit extends React.Component{
 				    <CardText >
 				      <div className="row">
 				        <div className="Header-Benefit-Image" style={{'backgroundColor':indigo500}}>
-				          <img src={process.env.PUBLIC_URL + 'images/heart.png'} />
+				          <img src={process.env.PUBLIC_URL + 'images/heart.png'} alt="imge" />
 				        </div>
 				        <div className="Header-Benefit-Content">
 				          <h3>Tus lugares favoritos</h3>
@@ -37,7 +37,7 @@ export default class Benefit extends React.Component{
 				    <CardText >
 				      <div className="row">
 				        <div className="Header-Benefit-Image" style={{'backgroundColor':amberA400}}>
-				          <img src={process.env.PUBLIC_URL + 'images/no-internet.png'} />
+				          <img src={process.env.PUBLIC_URL + 'images/no-internet.png'} alt="imge"/>
 				        </div>
 				        <div className="Header-Benefit-Content">
 				          <h3>Sin Internet?</h3>

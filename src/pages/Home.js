@@ -2,7 +2,7 @@ import React from 'react';
 
 import RaisedButton from 'material-ui/RaisedButton';
 
-import {indigo500,blue500,orangeA700,amberA400} from 'material-ui/styles/colors';
+import {indigo500} from 'material-ui/styles/colors';
 
 import PlaceCard from '../components/places/PlaceCard'
 import Benefits from '../components/Benefits'
@@ -33,7 +33,7 @@ export default class Home extends React.Component{
 
 	hiddePlace(place){
 		this.setState({
-			places: this.state.places.filter(el => el != place),
+			places: this.state.places.filter(el => el !== place),
 		})
 	}
 
@@ -53,7 +53,7 @@ export default class Home extends React.Component{
 				    		<Title></Title>
 				    		<RaisedButton onClick={this.updateNumero} label="Crear cuenta" secondary={true}/>
 				    		<h2>{this.state.numero}</h2>
-				    		<img className="Header-ilustration App-logo" src={process.env.PUBLIC_URL + '/images/top-bg.png'} />
+				    		<img className="Header-ilustration App-logo" src={process.env.PUBLIC_URL + '/images/top-bg.png'} alt="imdage"/>
 				  		</div>
 					</div>
 				</div>

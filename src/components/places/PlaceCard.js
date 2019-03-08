@@ -1,11 +1,11 @@
 import React from 'react';
 
-import RaisedButton from 'material-ui/RaisedButton';
+
 import {Card,CardText,CardMedia,CardTitle,CardActions} from 'material-ui/Card';
 
 import FlatButton from 'material-ui/FlatButton';
 
-import {indigo500,blue500,orangeA700,amberA400} from 'material-ui/styles/colors';
+
 
 import './style.css';
 
@@ -13,16 +13,14 @@ import './style.css';
 
 export default class PlaceCard extends React.Component{
 
-	constructor(props){
-		super(props);
-	}
+
 
 	render(){
 		return(
 			<div className="col-xs-12 col-sm-4 elevate" key={this.props.index}>
       			<Card>
         			<CardMedia>
-          				<img src={process.env.PUBLIC_URL + this.props.place.imageUrl}/>
+          				<img src={process.env.PUBLIC_URL + this.props.place.imageUrl} alt="imtyage"/>
         			</CardMedia>
         			<CardTitle title={this.props.place.title}></CardTitle>
        				<CardText>{this.props.place.description}</CardText>
